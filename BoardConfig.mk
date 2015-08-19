@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/odin/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/odin/bluetooth
 
-TARGET_KERNEL_CONFIG := cm_fusion3_odin_defconfig
+TARGET_KERNEL_CONFIG := mokee_fusion3_odin_defconfig
 
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
@@ -39,6 +39,6 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1056964608
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 
-BOARD_HARDWARE_CLASS += device/sony/odin/cmhw
+BOARD_HARDWARE_CLASS += device/sony/odin/mkhw
 
 TARGET_DISPLAY_GAMMA_DISABLED := true
